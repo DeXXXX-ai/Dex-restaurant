@@ -1,0 +1,101 @@
+body 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff0000; 
+    color: #333; /* Text color */
+    line-height: 1.6;
+}
+
+/* Header Navigation */
+header {
+    background-color: #333; /* Dark background for the header */
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #555; /* Darker background when hovering */
+    border-radius: 5px;
+}
+
+/* Main Section */
+main {
+    background-color: #fff; /* White background for the main content */
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #007BFF; /* Blue color for the main headings */
+    font-size: 2rem;
+}
+
+h1 i, h2 i {
+    font-style: italic;
+}
+
+/* Image Styling */
+img {
+    width: 100%; /* Make images responsive */
+    height: auto;
+    max-width: 600px; /* Limit maximum width */
+    margin: 20px 0;
+    display: block;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+/* Text Section Styling */
+p {
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+/* Background Color for Sections */
+section {
+    background-color: #f9f9f9; /* Light background for each section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Instagram Link Styling */
+a {
+    color: #007BFF; /* Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Navigation */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

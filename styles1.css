@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #ff0000; 
+    color: #333; /* Text color */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333; /* Dark background for header */
+    padding: 20px;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav a {
+    color: white; /* White text for the navigation links */
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    background-color: #ddd; /* Light grey hover effect */
+    color: #333; /* Dark text color on hover */
+}
+
+/* Main content styles */
+h1 {
+    text-align: center;
+    color: #FF5722; /* Vibrant orange color for the heading */
+    margin-top: 30px;
+}
+
+/* Paragraph text */
+p {
+    line-height: 1.6;
+    font-size: 18px;
+    color: #555; /* Slightly lighter text color for paragraphs */
+    margin: 0 20px 20px 20px;
+}
+
+/* Style for emphasized text (i.e., italic text) */
+i {
+    color: #4CAF50; /* Green color for emphasized text */
+}
+
+/* Images styles */
+img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 20px auto; /* Center images with margin */
+}
+
+/* For the logo image */
+img[alt="logo"] {
+    width: 50%; /* Resize the logo to 50% of the container width */
+    max-width: 200px; /* Limit the maximum width of the logo */
+    margin: 0 auto;
+}
+
+/* For the Boston location image */
+img[alt="Boston location"] {
+    width: 100%; /* Resize to fit the width of the container */
+    max-width: 400px; /* Limit its size */
+    margin: 0 auto;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styling (if you plan to add buttons) */
+button {
+    background-color: #FF5722; /* Vibrant orange button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #E64A19; /* Darker orange on hover */
+}
